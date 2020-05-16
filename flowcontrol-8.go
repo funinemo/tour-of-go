@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Sqrt 平方根を実装
 func Sqrt(x float64) float64 {
 	z := 1.0
 	var before, after float64
