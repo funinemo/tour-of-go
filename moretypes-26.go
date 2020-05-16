@@ -10,15 +10,10 @@ func fibonacci() func() int {
 	return func() int {
 		switch fib {
 		case -1:
-			p2 = 0
+			p2 = 1
 			p1 = 0
 			fib = 0
-			return fib
-		case 0:
-			p2 = 0
-			p1 = 1
-			fib = 1
-			return fib
+			return 0
 		}
 		fib = p1 + p2
 		p2 = p1
