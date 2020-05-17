@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// IPAddr IPアドレス
 type IPAddr [4]byte
 
 // TODO: Add a "String() string" method to IPAddr.
